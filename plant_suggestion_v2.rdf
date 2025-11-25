@@ -61,6 +61,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Location"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasPlantingEnvironment -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasPlantingEnvironment"/>
@@ -93,6 +102,15 @@
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasCost -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasCost"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasFlower -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasFlower">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
     
 
 
