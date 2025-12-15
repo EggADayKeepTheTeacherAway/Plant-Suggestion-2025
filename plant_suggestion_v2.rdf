@@ -163,12 +163,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#EnvironmentalRequirement -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#EnvironmentalRequirement"/>
-    
-
-
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FloweringPlant -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FloweringPlant">
@@ -193,9 +187,7 @@
 
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#LightRequirement -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#LightRequirement">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#EnvironmentalRequirement"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#LightRequirement"/>
     
 
 
@@ -243,11 +235,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#SoilType -->
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#SoilType">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#EnvironmentalRequirement"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
     
 
 
@@ -551,7 +541,7 @@
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Clay -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Clay">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#SoilType"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
     </owl:NamedIndividual>
     
 
@@ -913,6 +903,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullShade -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullShade">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#LightRequirement"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun">
@@ -1106,7 +1104,7 @@
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Loamy -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Loamy">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#SoilType"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
     </owl:NamedIndividual>
     
 
@@ -1115,14 +1113,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Low">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Careness"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#LowLight -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#LowLight">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#LightRequirement"/>
     </owl:NamedIndividual>
     
 
@@ -1197,9 +1187,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#PartialShade -->
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#PartialSun -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#PartialShade">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#PartialSun">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#LightRequirement"/>
     </owl:NamedIndividual>
     
@@ -1329,7 +1319,7 @@
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Sandy -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Sandy">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#SoilType"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
     </owl:NamedIndividual>
     
 
