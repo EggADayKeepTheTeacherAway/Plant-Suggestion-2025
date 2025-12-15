@@ -494,7 +494,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Betel">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#VinePlant"/>
-        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Rare"/>
+        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Spring"/>
+        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Summer"/>
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#White"/>
         <plantsuggestion:hasFragrance rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Herbal"/>
         <plantsuggestion:hasFragrance rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Spicy"/>
@@ -1606,14 +1607,6 @@
         <plantsuggestion:hasTemperatureRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</plantsuggestion:hasTemperatureRangeMax>
         <plantsuggestion:hasTemperatureRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</plantsuggestion:hasTemperatureRangeMin>
         <plantsuggestion:hasWaterPerWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</plantsuggestion:hasWaterPerWeek>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Rare -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Rare">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#BloomingSeason"/>
     </owl:NamedIndividual>
     
 
