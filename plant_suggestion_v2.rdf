@@ -296,14 +296,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
@@ -384,14 +376,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Acrocarpous_Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Acrocarpous_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Air -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Air">
@@ -408,12 +392,12 @@
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Orange"/>
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Yellow"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
-        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#PartialSun"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Partial_Sun"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Kitchen"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Living_Room"/>
         <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#loamy_well_drain"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Loamy_Well_Drain"/>
         <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
         <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</plantsuggestion:hasHeightRangeMax>
         <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</plantsuggestion:hasHeightRangeMin>
@@ -422,14 +406,6 @@
         <plantsuggestion:hasTemperatureRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</plantsuggestion:hasTemperatureRangeMax>
         <plantsuggestion:hasTemperatureRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</plantsuggestion:hasTemperatureRangeMin>
         <plantsuggestion:hasWaterPerWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.33</plantsuggestion:hasWaterPerWeek>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#American_Tree_Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#American_Tree_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
     </owl:NamedIndividual>
     
 
@@ -482,14 +458,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Baby_Tooth_Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Baby_Tooth_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Balloon_Flower -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Balloon_Flower">
@@ -531,10 +499,10 @@
         <plantsuggestion:hasFragrance rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Herbal"/>
         <plantsuggestion:hasFragrance rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Spicy"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
-        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#PartialSun"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Partial_Sun"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
         <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#garden_soil"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden_Soil"/>
         <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
         <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.91</plantsuggestion:hasHeightRangeMax>
         <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.91</plantsuggestion:hasHeightRangeMin>
@@ -543,20 +511,6 @@
         <plantsuggestion:hasTemperatureRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</plantsuggestion:hasTemperatureRangeMax>
         <plantsuggestion:hasTemperatureRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</plantsuggestion:hasTemperatureRangeMin>
         <plantsuggestion:hasWaterPerWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</plantsuggestion:hasWaterPerWeek>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#BiWeekly -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#BiWeekly"/>
-    
-
-
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Big_Shaggy-Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Big_Shaggy-Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
     </owl:NamedIndividual>
     
 
@@ -577,9 +531,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Black-Eyed_Susan -->
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Black_Eyed_Susan -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Black-Eyed_Susan">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Black_Eyed_Susan">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FloweringPlant"/>
     </owl:NamedIndividual>
     
@@ -597,10 +551,10 @@
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#White"/>
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Yellow"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
-        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
         <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#garden_soil"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden_Soil"/>
         <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
         <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</plantsuggestion:hasHeightRangeMax>
         <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.8</plantsuggestion:hasHeightRangeMin>
@@ -631,11 +585,11 @@
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Blue"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Red"/>
-        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Bedroom"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Living_Room"/>
         <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#potting_mix_well_drain"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Potting_Mix_Well_Drain"/>
         <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
         <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</plantsuggestion:hasHeightRangeMax>
         <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</plantsuggestion:hasHeightRangeMin>
@@ -652,17 +606,17 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Bougainvillea">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#VinePlant"/>
-        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Year-Round"/>
+        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Year_Round"/>
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Magenta"/>
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Orange"/>
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Purple"/>
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Red"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Yellow"/>
-        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
         <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#garden_soil"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden_Soil"/>
         <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
         <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</plantsuggestion:hasHeightRangeMax>
         <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</plantsuggestion:hasHeightRangeMin>
@@ -722,10 +676,10 @@
         <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Rainy"/>
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Yellow"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
-        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
         <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#loamy_well_drain"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Loamy_Well_Drain"/>
         <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
         <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.3</plantsuggestion:hasHeightRangeMax>
         <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.3</plantsuggestion:hasHeightRangeMin>
@@ -774,11 +728,11 @@
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Brown"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Red"/>
-        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Bedroom"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Living_Room"/>
         <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#potting_mix_well_drain"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Potting_Mix_Well_Drain"/>
         <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
         <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</plantsuggestion:hasHeightRangeMax>
         <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</plantsuggestion:hasHeightRangeMin>
@@ -823,22 +777,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Common_Haircap_Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Common_Haircap_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Common_Peat_Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Common_Peat_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Coneflower -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Coneflower">
@@ -851,6 +789,31 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Conifer_Shrubs">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#BushPlant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Coral_Vine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Coral_Vine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#VinePlant"/>
+        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Summer"/>
+        <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Pink"/>
+        <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Red"/>
+        <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#White"/>
+        <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun"/>
+        <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
+        <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden_Soil"/>
+        <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
+        <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</plantsuggestion:hasHeightRangeMax>
+        <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</plantsuggestion:hasHeightRangeMin>
+        <plantsuggestion:hasSpreadRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</plantsuggestion:hasSpreadRangeMax>
+        <plantsuggestion:hasSpreadRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</plantsuggestion:hasSpreadRangeMin>
+        <plantsuggestion:hasTemperatureRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</plantsuggestion:hasTemperatureRangeMax>
+        <plantsuggestion:hasTemperatureRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</plantsuggestion:hasTemperatureRangeMin>
+        <plantsuggestion:hasWaterPerWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</plantsuggestion:hasWaterPerWeek>
     </owl:NamedIndividual>
     
 
@@ -891,16 +854,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Crown_of_Thorns">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#SucculentPlant"/>
-        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Year-Round"/>
+        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Year_Round"/>
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Pink"/>
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Red"/>
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#White"/>
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Yellow"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
-        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
         <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#potting_mix_well_drain"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Potting_Mix_Well_Drain"/>
         <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
         <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.8</plantsuggestion:hasHeightRangeMax>
         <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</plantsuggestion:hasHeightRangeMin>
@@ -909,14 +872,6 @@
         <plantsuggestion:hasTemperatureRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</plantsuggestion:hasTemperatureRangeMax>
         <plantsuggestion:hasTemperatureRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</plantsuggestion:hasTemperatureRangeMin>
         <plantsuggestion:hasWaterPerWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</plantsuggestion:hasWaterPerWeek>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Cushion_Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Cushion_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
     </owl:NamedIndividual>
     
 
@@ -1045,33 +1000,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Feather_Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Feather_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Fence -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Fence"/>
-    
-
-
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Fern_Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Fern_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Fire_Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Fire_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
-    </owl:NamedIndividual>
     
 
 
@@ -1079,6 +1010,31 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Flaky_Juniper">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#BushPlant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Flamevine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Flamevine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#VinePlant"/>
+        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Fall"/>
+        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Spring"/>
+        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Winter"/>
+        <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Orange"/>
+        <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun"/>
+        <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
+        <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden_Soil"/>
+        <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
+        <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23</plantsuggestion:hasHeightRangeMax>
+        <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23</plantsuggestion:hasHeightRangeMin>
+        <plantsuggestion:hasSpreadRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</plantsuggestion:hasSpreadRangeMax>
+        <plantsuggestion:hasSpreadRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.8</plantsuggestion:hasSpreadRangeMin>
+        <plantsuggestion:hasTemperatureRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</plantsuggestion:hasTemperatureRangeMax>
+        <plantsuggestion:hasTemperatureRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</plantsuggestion:hasTemperatureRangeMin>
+        <plantsuggestion:hasWaterPerWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.33</plantsuggestion:hasWaterPerWeek>
     </owl:NamedIndividual>
     
 
@@ -1093,11 +1049,11 @@
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Red"/>
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Yellow"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
-        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#PartialSun"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Partial_Sun"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Bedroom"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Living_Room"/>
         <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#potting_mix_well_drain"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Potting_Mix_Well_Drain"/>
         <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
         <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</plantsuggestion:hasHeightRangeMax>
         <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</plantsuggestion:hasHeightRangeMin>
@@ -1134,9 +1090,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Forget-Me-Not_Flower -->
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Forget_Me_Not_Flower -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Forget-Me-Not_Flower">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Forget_Me_Not_Flower">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FloweringPlant"/>
     </owl:NamedIndividual>
     
@@ -1158,17 +1114,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullShade -->
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Shade -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullShade">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Shade">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#LightRequirement"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun -->
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#LightRequirement"/>
     </owl:NamedIndividual>
     
@@ -1178,6 +1134,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden_Soil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden_Soil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
+        <plantsuggestion:hasDrainage rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Well-draining"/>
+        <plantsuggestion:hasSoilType rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Loamy"/>
     </owl:NamedIndividual>
     
 
@@ -1196,11 +1162,11 @@
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#White"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#White"/>
-        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Bedroom"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Living_Room"/>
         <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#potting_mix_well_drain"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Potting_Mix_Well_Drain"/>
         <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
         <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</plantsuggestion:hasHeightRangeMax>
         <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</plantsuggestion:hasHeightRangeMin>
@@ -1229,9 +1195,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Good-draining -->
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Good_draining -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Good-draining">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Good_draining">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Drainage"/>
     </owl:NamedIndividual>
     
@@ -1261,14 +1227,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Heath_Star_Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Heath_Star_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Helenium -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Helenium">
@@ -1289,14 +1247,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#High">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Careness"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Hoary_Fringe-Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Hoary_Fringe-Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
     </owl:NamedIndividual>
     
 
@@ -1326,11 +1276,11 @@
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#White"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Red"/>
-        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#PartialSun"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Partial_Sun"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Bedroom"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Living_Room"/>
         <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#potting_mix_well_drain"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Potting_Mix_Well_Drain"/>
         <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
         <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.8</plantsuggestion:hasHeightRangeMax>
         <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.91</plantsuggestion:hasHeightRangeMin>
@@ -1347,14 +1297,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Japanese_Laurel">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#BushPlant"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Juniper_Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Juniper_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
     </owl:NamedIndividual>
     
 
@@ -1415,6 +1357,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Loamy_Well_Drain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Loamy_Well_Drain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
+        <plantsuggestion:hasDrainage rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Well-draining"/>
+        <plantsuggestion:hasSoilType rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Loamy"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Low -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Low">
@@ -1447,10 +1399,29 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Mood_Moss -->
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Moonflower -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Mood_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Moonflower">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#VinePlant"/>
+        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Spring"/>
+        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Summer"/>
+        <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#White"/>
+        <plantsuggestion:hasFragrance rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Creamy"/>
+        <plantsuggestion:hasFragrance rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Floral"/>
+        <plantsuggestion:hasFragrance rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Sweet"/>
+        <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun"/>
+        <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
+        <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden_Soil"/>
+        <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
+        <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</plantsuggestion:hasHeightRangeMax>
+        <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</plantsuggestion:hasHeightRangeMin>
+        <plantsuggestion:hasSpreadRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.8</plantsuggestion:hasSpreadRangeMax>
+        <plantsuggestion:hasSpreadRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</plantsuggestion:hasSpreadRangeMin>
+        <plantsuggestion:hasTemperatureRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</plantsuggestion:hasTemperatureRangeMax>
+        <plantsuggestion:hasTemperatureRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</plantsuggestion:hasTemperatureRangeMin>
+        <plantsuggestion:hasWaterPerWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</plantsuggestion:hasWaterPerWeek>
     </owl:NamedIndividual>
     
 
@@ -1466,10 +1437,10 @@
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Brown"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Silver"/>
-        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
         <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#potting_mix_well_drain"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Potting_Mix_Well_Drain"/>
         <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
         <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</plantsuggestion:hasHeightRangeMax>
         <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</plantsuggestion:hasHeightRangeMin>
@@ -1478,6 +1449,33 @@
         <plantsuggestion:hasTemperatureRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</plantsuggestion:hasTemperatureRangeMax>
         <plantsuggestion:hasTemperatureRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</plantsuggestion:hasTemperatureRangeMin>
         <plantsuggestion:hasWaterPerWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.33</plantsuggestion:hasWaterPerWeek>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Night_Blooming_Jasmine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Night_Blooming_Jasmine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#VinePlant"/>
+        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Fall"/>
+        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Summer"/>
+        <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
+        <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#White"/>
+        <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Yellow"/>
+        <plantsuggestion:hasFragrance rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Floral"/>
+        <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun"/>
+        <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
+        <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden_Soil"/>
+        <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
+        <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</plantsuggestion:hasHeightRangeMax>
+        <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</plantsuggestion:hasHeightRangeMin>
+        <plantsuggestion:hasSpreadRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.8</plantsuggestion:hasSpreadRangeMax>
+        <plantsuggestion:hasSpreadRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2</plantsuggestion:hasSpreadRangeMin>
+        <plantsuggestion:hasTemperatureRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</plantsuggestion:hasTemperatureRangeMax>
+        <plantsuggestion:hasTemperatureRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</plantsuggestion:hasTemperatureRangeMin>
+        <plantsuggestion:hasWaterPerWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</plantsuggestion:hasWaterPerWeek>
     </owl:NamedIndividual>
     
 
@@ -1504,9 +1502,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#PartialSun -->
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Partial_Sun -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#PartialSun">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Partial_Sun">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#LightRequirement"/>
     </owl:NamedIndividual>
     
@@ -1537,10 +1535,10 @@
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Purple"/>
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#White"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
-        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
         <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#garden_soil"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden_Soil"/>
         <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
         <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</plantsuggestion:hasHeightRangeMax>
         <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</plantsuggestion:hasHeightRangeMin>
@@ -1553,18 +1551,13 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Pleurocarpous_Moss -->
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Potting_Mix_Well_Drain -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Pleurocarpous_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Plume_Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Plume_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Potting_Mix_Well_Drain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
+        <plantsuggestion:hasDrainage rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Well-draining"/>
+        <plantsuggestion:hasSoilType rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Loamy"/>
+        <plantsuggestion:hasSoilType rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Sandy"/>
     </owl:NamedIndividual>
     
 
@@ -1598,10 +1591,10 @@
         <plantsuggestion:hasFragrance rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Sweet"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Blue"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
-        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#PartialSun"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Partial_Sun"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
         <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#garden_soil"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden_Soil"/>
         <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
         <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</plantsuggestion:hasHeightRangeMax>
         <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</plantsuggestion:hasHeightRangeMin>
@@ -1612,137 +1605,6 @@
         <plantsuggestion:hasWaterPerWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</plantsuggestion:hasWaterPerWeek>
     </owl:NamedIndividual>
     
-
-
-<!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Coral_Vine -->
-
-<owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Coral_Vine">
-    <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#VinePlant"/>
-    <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Summer"/>
-    <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Pink"/>
-    <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Red"/>
-    <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#White"/>
-    <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
-    <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun"/>
-    <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
-    <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-    <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#garden_soil"/>
-    <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
-    <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</plantsuggestion:hasHeightRangeMin>
-    <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</plantsuggestion:hasHeightRangeMax>
-    <plantsuggestion:hasSpreadRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</plantsuggestion:hasSpreadRangeMin>
-    <plantsuggestion:hasSpreadRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</plantsuggestion:hasSpreadRangeMax>
-    <plantsuggestion:hasTemperatureRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</plantsuggestion:hasTemperatureRangeMin>
-    <plantsuggestion:hasTemperatureRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</plantsuggestion:hasTemperatureRangeMax>
-    <plantsuggestion:hasWaterPerWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</plantsuggestion:hasWaterPerWeek>
-</owl:NamedIndividual>
-
-
-
-<!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Flamevine -->
-
-<owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Flamevine">
-    <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#VinePlant"/>
-    <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Spring"/>
-    <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Fall"/>
-    <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Winter"/>
-    <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Orange"/>
-    <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
-    <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun"/>
-    <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
-    <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-    <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#garden_soil"/>
-    <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
-    <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23</plantsuggestion:hasHeightRangeMin>
-    <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23</plantsuggestion:hasHeightRangeMax>
-    <plantsuggestion:hasSpreadRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.8</plantsuggestion:hasSpreadRangeMin>
-    <plantsuggestion:hasSpreadRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</plantsuggestion:hasSpreadRangeMax>
-    <plantsuggestion:hasTemperatureRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</plantsuggestion:hasTemperatureRangeMin>
-    <plantsuggestion:hasTemperatureRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</plantsuggestion:hasTemperatureRangeMax>
-    <plantsuggestion:hasWaterPerWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.33</plantsuggestion:hasWaterPerWeek>
-</owl:NamedIndividual>
-
-
-
-<!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Moonflower -->
-
-<owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Moonflower">
-    <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#VinePlant"/>
-    <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Spring"/>
-    <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Summer"/>
-    <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#White"/>
-    <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
-    <plantsuggestion:hasFragrance rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Sweet"/>
-    <plantsuggestion:hasFragrance rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Creamy"/>
-    <plantsuggestion:hasFragrance rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Floral"/>
-    <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun"/>
-    <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
-    <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-    <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#garden_soil"/>
-    <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
-    <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</plantsuggestion:hasHeightRangeMin>
-    <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</plantsuggestion:hasHeightRangeMax>
-    <plantsuggestion:hasSpreadRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</plantsuggestion:hasSpreadRangeMin>
-    <plantsuggestion:hasSpreadRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.8</plantsuggestion:hasSpreadRangeMax>
-    <plantsuggestion:hasTemperatureRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</plantsuggestion:hasTemperatureRangeMin>
-    <plantsuggestion:hasTemperatureRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</plantsuggestion:hasTemperatureRangeMax>
-    <plantsuggestion:hasWaterPerWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</plantsuggestion:hasWaterPerWeek>
-</owl:NamedIndividual>
-
-
-
-<!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Star_Jasmine -->
-
-<owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Star_Jasmine">
-    <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#VinePlant"/>
-    <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Spring"/>
-    <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Summer"/>
-    <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#White"/>
-    <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Yellow"/>
-    <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
-    <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Red"/>
-    <plantsuggestion:hasFragrance rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Floral"/>
-    <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#PartialSun"/>
-    <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
-    <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-    <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#garden_soil"/>
-    <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
-    <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</plantsuggestion:hasHeightRangeMin>
-    <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</plantsuggestion:hasHeightRangeMax>
-    <plantsuggestion:hasSpreadRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</plantsuggestion:hasSpreadRangeMin>
-    <plantsuggestion:hasSpreadRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</plantsuggestion:hasSpreadRangeMax>
-    <plantsuggestion:hasTemperatureRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</plantsuggestion:hasTemperatureRangeMin>
-    <plantsuggestion:hasTemperatureRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</plantsuggestion:hasTemperatureRangeMax>
-    <plantsuggestion:hasWaterPerWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</plantsuggestion:hasWaterPerWeek>
-</owl:NamedIndividual>
-
-
-
-<!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Night_Blooming_Jasmine -->
-
-<owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Night_Blooming_Jasmine">
-    <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#VinePlant"/>
-    <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Summer"/>
-    <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Fall"/>
-    <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
-    <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#White"/>
-    <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Yellow"/>
-    <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
-    <plantsuggestion:hasFragrance rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Floral"/>
-    <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun"/>
-    <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
-    <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-    <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#garden_soil"/>
-    <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
-    <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</plantsuggestion:hasHeightRangeMin>
-    <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</plantsuggestion:hasHeightRangeMax>
-    <plantsuggestion:hasSpreadRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2</plantsuggestion:hasSpreadRangeMin>
-    <plantsuggestion:hasSpreadRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.8</plantsuggestion:hasSpreadRangeMax>
-    <plantsuggestion:hasTemperatureRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</plantsuggestion:hasTemperatureRangeMin>
-    <plantsuggestion:hasTemperatureRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</plantsuggestion:hasTemperatureRangeMax>
-    <plantsuggestion:hasWaterPerWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</plantsuggestion:hasWaterPerWeek>
-</owl:NamedIndividual>
-
 
 
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Rare -->
@@ -1786,22 +1648,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Sheet_Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Sheet_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Shiny_Seductive_Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Shiny_Seductive_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Siberian_Cypress -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Siberian_Cypress">
@@ -1838,11 +1684,11 @@
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Red"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Silver"/>
-        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FullSun"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Living_Room"/>
         <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#potting_mix_well_drain"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Potting_Mix_Well_Drain"/>
         <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
         <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</plantsuggestion:hasHeightRangeMax>
         <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</plantsuggestion:hasHeightRangeMin>
@@ -1870,12 +1716,12 @@
         <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Summer"/>
         <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
         <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
-        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#PartialSun"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Partial_Sun"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Bathroom"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Bedroom"/>
         <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Living_Room"/>
         <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#potting_mix_well_drain"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Potting_Mix_Well_Drain"/>
         <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
         <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</plantsuggestion:hasHeightRangeMax>
         <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</plantsuggestion:hasHeightRangeMin>
@@ -1920,18 +1766,37 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Spoon-Leaved_Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Spoon-Leaved_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Spring -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Spring">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#BloomingSeason"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Star_Jasmine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Star_Jasmine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#VinePlant"/>
+        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Spring"/>
+        <plantsuggestion:hasBloomingSeason rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Summer"/>
+        <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#White"/>
+        <plantsuggestion:hasFlowerColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Yellow"/>
+        <plantsuggestion:hasFragrance rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Floral"/>
+        <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green"/>
+        <plantsuggestion:hasLeafColor rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Red"/>
+        <plantsuggestion:hasLightRequirement rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Partial_Sun"/>
+        <plantsuggestion:hasLocation rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden"/>
+        <plantsuggestion:hasPlantingEnvironment rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
+        <plantsuggestion:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Garden_Soil"/>
+        <plantsuggestion:hasFlower rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</plantsuggestion:hasFlower>
+        <plantsuggestion:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</plantsuggestion:hasHeightRangeMax>
+        <plantsuggestion:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</plantsuggestion:hasHeightRangeMin>
+        <plantsuggestion:hasSpreadRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</plantsuggestion:hasSpreadRangeMax>
+        <plantsuggestion:hasSpreadRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</plantsuggestion:hasSpreadRangeMin>
+        <plantsuggestion:hasTemperatureRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</plantsuggestion:hasTemperatureRangeMax>
+        <plantsuggestion:hasTemperatureRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</plantsuggestion:hasTemperatureRangeMin>
+        <plantsuggestion:hasWaterPerWeek rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</plantsuggestion:hasWaterPerWeek>
     </owl:NamedIndividual>
     
 
@@ -2022,9 +1887,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Year-Round -->
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Year_Round -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Year-Round">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Year_Round">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#BloomingSeason"/>
     </owl:NamedIndividual>
     
@@ -2046,45 +1911,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#garden_soil -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#garden_soil">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasDrainage rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Well-draining"/>
-        <plantsuggestion:hasSoilType rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Loamy"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#loamy_well_drain -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#loamy_well_drain">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasDrainage rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Well-draining"/>
-        <plantsuggestion:hasSoilType rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Loamy"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#potting_mix_well_drain -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#potting_mix_well_drain">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
-        <plantsuggestion:hasDrainage rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Well-draining"/>
-        <plantsuggestion:hasSoilType rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Loamy"/>
-        <plantsuggestion:hasSoilType rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Sandy"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Warnstorf’s_Peat_Moss -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Warnstorf’s_Peat_Moss">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2093,17 +1919,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#BushPlant"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FloweringPlant"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#FoliagePlant"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MossPlant"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#SucculentPlant"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#VinePlant"/>
-        </owl:members>
-    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
