@@ -783,6 +783,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Black">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Color"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Gloomy"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Spooky"/>
     </owl:NamedIndividual>
     
 
@@ -827,6 +829,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Blue">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Color"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Calming"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Gloomy"/>
     </owl:NamedIndividual>
     
 
@@ -893,10 +897,19 @@
     
 
 
+    <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Bright -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Bright">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MoodEffect"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Brown -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Brown">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Color"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Spooky"/>
     </owl:NamedIndividual>
     
 
@@ -1230,6 +1243,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Cream">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Color"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Bright"/>
     </owl:NamedIndividual>
     
 
@@ -1786,6 +1800,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Gold">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Color"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Cheerful"/>
     </owl:NamedIndividual>
     
 
@@ -1834,6 +1849,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Gray">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Color"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Calming"/>
     </owl:NamedIndividual>
     
 
@@ -1873,6 +1889,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Green">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Color"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Calming"/>
     </owl:NamedIndividual>
     
 
@@ -2185,6 +2202,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Magenta">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Color"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Romantic"/>
     </owl:NamedIndividual>
     
 
@@ -2314,6 +2332,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Orange">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Color"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Cheerful"/>
     </owl:NamedIndividual>
     
 
@@ -2392,6 +2411,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Pink">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Color"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Happy"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Romantic"/>
     </owl:NamedIndividual>
     
 
@@ -2573,6 +2594,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Purple">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Color"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Calming"/>
     </owl:NamedIndividual>
     
 
@@ -2626,6 +2648,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Red">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Color"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Romantic"/>
     </owl:NamedIndividual>
     
 
@@ -2753,6 +2776,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Silver">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Color"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Calming"/>
     </owl:NamedIndividual>
     
 
@@ -3068,6 +3092,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#White">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Color"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Calming"/>
     </owl:NamedIndividual>
     
 
@@ -3100,6 +3125,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Yellow">
         <rdf:type rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Color"/>
+        <plantsuggestion:hasMoodEffect rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Cheerful"/>
     </owl:NamedIndividual>
     
 
