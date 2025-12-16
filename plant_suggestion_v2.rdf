@@ -3071,8 +3071,8 @@
         <ps:hasMeaning rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Joy"/>
         <ps:hasMeaning rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Positivity"/>
         <ps:hasSoil rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Sandy_Good_Drain"/>
+        <ps:hasHeightRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</ps:hasHeightRangeMax>
         <ps:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</ps:hasHeightRangeMin>
-        <ps:hasHeightRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</ps:hasHeightRangeMin>
         <ps:hasSpreadRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</ps:hasSpreadRangeMax>
         <ps:hasSpreadRangeMin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</ps:hasSpreadRangeMin>
         <ps:hasTemperatureRangeMax rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</ps:hasTemperatureRangeMax>
