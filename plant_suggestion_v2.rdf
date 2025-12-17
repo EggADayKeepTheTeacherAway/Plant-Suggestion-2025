@@ -306,7 +306,6 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#MoodEffect"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
     </owl:Class>
     
 
