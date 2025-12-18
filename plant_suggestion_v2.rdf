@@ -60,6 +60,7 @@
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasCarenessLevel -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasCarenessLevel">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Careness"/>
     </owl:ObjectProperty>
@@ -78,6 +79,7 @@
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasDrainage -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasDrainage">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Soil"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Drainage"/>
     </owl:ObjectProperty>
@@ -123,6 +125,7 @@
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasLightRequirement -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasLightRequirement">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#LightRequirement"/>
     </owl:ObjectProperty>
@@ -159,6 +162,7 @@
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasSize -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasSize">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Size"/>
     </owl:ObjectProperty>
@@ -197,6 +201,7 @@
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasFlower -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasFlower">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
@@ -206,6 +211,7 @@
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasHeightRangeMax -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasHeightRangeMax">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
@@ -215,6 +221,7 @@
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasHeightRangeMin -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasHeightRangeMin">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
@@ -224,6 +231,7 @@
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasSpreadRangeMax -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasSpreadRangeMax">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
@@ -233,6 +241,7 @@
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasSpreadRangeMin -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasSpreadRangeMin">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
@@ -242,6 +251,7 @@
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasTemperatureRangeMax -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasTemperatureRangeMax">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
@@ -251,6 +261,7 @@
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasTemperatureRangeMin -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasTemperatureRangeMin">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
@@ -260,6 +271,7 @@
     <!-- http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasWaterPerWeek -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasWaterPerWeek">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
@@ -3294,7 +3306,125 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment></rdfs:comment>
-    <rdfs:label>Meaning Love and Fullsun in Patio</rdfs:label>
+        <rdfs:label>Meaning Protection and Full Shade in Bathroom</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion/p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasMeaning"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion/p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Protection"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasLightRequirement"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion/p"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Shade"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasLocation"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion/p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Bathroom"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Meaning Joy and Fullsun in Patio</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion/p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasMeaning"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion/p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Joy"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasLightRequirement"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion/p"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasLocation"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion/p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Patio"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Meaning Love and Fullsun in Patio</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -3331,7 +3461,6 @@
                                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
                             </rdf:Description>
                         </rdf:rest>
- 
                     </rdf:Description>
                 </rdf:rest>
             </rdf:Description>
@@ -4692,7 +4821,6 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment></rdfs:comment>
-    <rdfs:label>Plant Fragrance Mood</rdfs:label>
         <rdfs:label>Plant Fragrance Mood</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -4867,127 +4995,6 @@
             </rdf:Description>
         </swrl:head>
     </rdf:Description>
- 
- 
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Meaning Protection and Full Shade in Bathroom</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion/p"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasMeaning"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion/p"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Protection"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasLightRequirement"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion/p"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Shade"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasLocation"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion/p"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Bathroom"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Meaning Joy and Fullsun in Patio</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#OrnamentalPlant"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion/p"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasMeaning"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion/p"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Joy"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasLightRequirement"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion/p"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Full_Sun"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#hasLocation"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion/p"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/fghgh/ontologies/2025/8/plantsuggestion#Patio"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
- 
 </rdf:RDF>
 
 
